@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PracticeSuite">
+
+<listeners>
+<listener  class-name="com.Listeners.ExetentReportCode"/>
+</listeners>
+  <test thread-count="5" name="PracticeTest">
+    <classes>
+      <class name="com.CRM.TestExecution.LogInPagetest"/>
+      <class name="com.CRM.TestExecution.HomePageTest"/>
+      <class name="com.CRM.TestExecution.DealsPageTest"/>
+    </classes>
+  </test> <!-- PracticeTest -->
+</suite> <!-- PracticeSuite -->
